@@ -1,4 +1,3 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
     "./app/**/*.{js,ts,jsx,tsx}",
@@ -10,5 +9,6 @@ module.exports = {
   },
   plugins: [
     require('@tailwindcss/typography'),
+    require('@tailwindcss/aspect-ratio'),
   ],
 }
